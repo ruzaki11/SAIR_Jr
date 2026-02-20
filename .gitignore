@@ -397,4 +397,26 @@ todo.txt
 *.pt 
 
 yolov8n-pose.pt
-yolov8n.pt
+yolov8n.pt 
+
+# Large video files
+*.mp4
+*.avi
+*.mov
+*.webm
+*.mkv
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Dataset files
+datasets/
+data/cifar-10-batches-py/
+*.zip
+*.tar.gz
+
+# Detection outputs
+detection_output/
